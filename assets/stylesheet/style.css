@@ -150,8 +150,8 @@ a {
 }
 .heading-h2 {
     margin: 14px auto;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
 .para {
@@ -293,7 +293,7 @@ i {
     padding: 20px;
     position: absolute;
     left: 45%;
-    top: 30%;
+    top: 28%;
 }
 
 /* OUR SERVICES SECTION */
