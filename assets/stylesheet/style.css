@@ -50,7 +50,6 @@ table {
 /* General Styles */
 
 html, body {
-    max-width: 100%;
     overflow-x: hidden;
 }
 *,
@@ -142,19 +141,18 @@ a {
     color: var(--secondary);
     font-size: 12px;
     margin-top: 12px;
-    
 }
 .heading-h3 {
     margin: 12px auto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .heading-h2 {
     margin: 14px auto;
     font-size: 26px;
     font-weight: 600;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .para {
     margin-bottom: 32px;
@@ -181,8 +179,8 @@ i {
 .bg-img h2 {
     color: white;
     font-size: 24px;
-    font-weight: 600;
-    font-family: 'Rubik', sans-serif; ;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
 }
 .bg-img-blog {
     background: url(../media/hero/blog_hero.jpg) center;  /* HERO SECTION BLOG */
@@ -244,10 +242,11 @@ i {
 .hero-heading {
     color: var(--heading);
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     margin-top: 6px;
+    line-height: 1.2;
     margin-bottom: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ABOUT SECTION */
@@ -281,20 +280,20 @@ i {
 
 /* WE TRUST */
 
-.trusted {
+.trusted-img {
     position: relative;
 }
 .trusted-img img {
-    width: 60%;
+    width: 50%;
     height: 400px;
 }
 .trusted-article {
-    width: 40%;
+    width: 54%;
     background-color: rgb(255, 255, 255, 0.5);
     padding: 20px;
     position: absolute;
-    left: 50%;
-    top: 225px;
+    left: 45%;
+    top: 30%;
 }
 
 /* OUR SERVICES SECTION */
@@ -400,7 +399,7 @@ select {
   color: #1255a1;
   font-weight: 600;
   margin-bottom: 12px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .footer-top {
     padding-top: 60px;
@@ -471,8 +470,9 @@ small {
     border-radius: 2px;
     margin-bottom: 24px;
 }
-#search {
-    width: 80%;
+.search-input {
+    width: 100%;
+    position: relative;
 }
 .btn-aside  {
    padding: 12px 100px;
@@ -482,17 +482,25 @@ small {
     color: #fff;
     background-color: var(--secondary);
     border: 0;
-    padding: 12px 16px;
+    padding: 11px 16px;
     margin: 0;
     border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 220px;
 }
 .row ::placeholder {
     color: gray;
 }
 .aside-line {
     width: 100%;
-    background-color: rgba(248, 245, 245, 0.685);
-    margin-bottom: 36px;
+    height: 1px;
+    background-color: rgb(241, 244, 245);
+    margin-bottom: 24px;
+    border: none;
+}
+.list-hr {
+    margin: 8px 0;
 }
 .recent-post-info {
     width: 80%;
@@ -551,13 +559,16 @@ small {
 .contact-page-aside {
     margin-bottom: 12px;
     font-size: 16px;
+    padding: 0;
 }
 .contact-page-aside p {
-   margin-left: 10px;
+   margin-left: 16px;
 
 }
 .contact-page-aside i {
     font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* CASE-STUDY PAGE */
